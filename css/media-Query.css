@@ -1,0 +1,378 @@
+@media(max-width:767px) {
+    .navbar form button {
+        display: none;
+    }
+    .s {
+        display: none;
+    }
+    .i {
+        position: absolute;
+        top: 25px;
+        right: 100px;
+        display: none;
+    }
+    .sr {
+        width: 160px;
+        display: none;
+    }
+    .navbar .mr-auto li {
+        width: 25%;
+    }
+    .b {
+        margin-left: 20px;
+        position: relative;
+        left: 60px;
+    }
+    .testimonials .carousel-indicators li {
+        position: relative;
+        left: 35px;
+    }
+    .testimonials .lead {
+        padding: 5px;
+    }
+    .Mysilfe {
+        display: none;
+    }
+    .enter textarea {
+        width: 300px;
+    }
+    .optionbox {
+        position: relative;
+        top: 0px;
+        left: 0;
+        z-index: 9999;
+        margin-bottom: 10px;
+    }
+    .optionbox .colori {
+        color: rgb(167, 165, 165);
+        background-color: rgb(51, 51, 51, .0);
+        position: relative;
+        left: -20px;
+    }
+    .optionbox div {
+        border: 1px solid #8a8989;
+        color: #ccc;
+    }
+    .carousel-control-prev {
+        display: none;
+    }
+    .carousel-control-next {
+        display: none;
+    }
+    .navbar .mr-auto {
+        overflow: hidden;
+        align-items: center;
+    }
+    .sign h1 {
+        font-size: xx-large;
+        font-weight: bolder;
+        font-style: tahoma, arial;
+        color: #065c2d;
+        margin-bottom: 50px;
+    }
+    .sign button {
+        font-weight: bold;
+        font-size: x-large;
+        color: #fff;
+    }
+    .log h1 {
+        font-size: xx-large;
+        font-weight: bolder;
+        font-style: tahoma, arial;
+        color: #0a46a0;
+        margin-bottom: 50px;
+    }
+    .log button {
+        font-weight: bold;
+        font-size: x-large;
+        color: #fff;
+        margin-bottom: 50px;
+    }
+    input[placeholder="Firstname"] {
+        width: 100%;
+        height: 50px;
+        border-radius: 25px;
+        border: 1px solid #333;
+        background-color: rgba(18, 19, 18, 0.8);
+        color: rgb(60, 208, 235);
+        text-align: center;
+        font-size: large;
+        font-weight: bolder;
+        font-style: tahoma, arial;
+        margin-bottom: 20px;
+    }
+    input[placeholder="Lastname"] {
+        width: 100%;
+        height: 50px;
+        border-radius: 25px;
+        border: 1px solid #333;
+        background-color: rgba(18, 19, 18, 0.8);
+        color: rgb(60, 208, 235);
+        text-align: center;
+        font-size: large;
+        font-weight: bolder;
+        font-style: tahoma, arial;
+        margin-bottom: 20px;
+    }
+    input[placeholder="Username"] {
+        width: 100%;
+        height: 50px;
+        border-radius: 25px;
+        border: 1px solid #333;
+        background-color: rgba(18, 19, 18, 0.8);
+        color: rgb(60, 208, 235);
+        text-align: center;
+        font-size: large;
+        font-weight: bolder;
+        font-style: tahoma, arial;
+        margin-bottom: 20px;
+    }
+    input[placeholder="@gmail.com"] {
+        width: 100%;
+        height: 50px;
+        border-radius: 25px;
+        border: 1px solid #333;
+        background-color: rgba(18, 19, 18, 0.8);
+        color: rgb(60, 208, 235);
+        text-align: center;
+        font-size: large;
+        font-weight: bolder;
+        font-style: tahoma, arial;
+        margin-bottom: 20px;
+    }
+    input[placeholder="Password"] {
+        width: 100%;
+        height: 50px;
+        border-radius: 25px;
+        border: 1px solid #333;
+        background-color: rgba(18, 19, 18, 0.8);
+        color: rgb(60, 208, 235);
+        text-align: center;
+        font-size: large;
+        font-weight: bolder;
+        font-style: tahoma, arial;
+        margin-bottom: 20px;
+    }
+    .news {
+        display: none;
+    }
+}
+
+@media (min-width: 575px) {
+    .navbar-dark .navbar-nav .nav-link {
+        color: #ccc;
+        float: left;
+        font-weight: 400;
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+    .sr {
+        display: none;
+    }
+    .i {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar-dark .navbar-nav .nav-link {
+        color: #ccc;
+        font-weight: 400;
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+    .sr {
+        display: none;
+    }
+    .i {
+        display: none;
+    }
+}
+
+@media (min-width: 991px) {
+    .navbar-dark .navbar-nav .nav-link {
+        color: #ccc;
+        position: relative;
+        left: 100px;
+        font-weight: 400;
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+    .dropdown-menu {
+        position: relative;
+        left: 100px;
+    }
+    .sr {
+        display: none;
+    }
+    .i {
+        display: none;
+    }
+    .optionbox {
+        position: fixed;
+        top: 100px;
+        left: 0;
+        z-index: 9999;
+    }
+    .optionbox div {
+        background-color: #333;
+        border: 4px solid #207dff;
+        color: #ccc;
+    }
+    .optionbox .colori {
+        color: #FFF;
+        background: #00bd56;
+        background: #207dff;
+        background: -moz-linear-gradient(45deg, #207dff 0%, #00bd55 100%);
+        background: -webkit-linear-gradient(45deg, #207dff 0%, #00bd55 100%);
+        background: -o-linear-gradient(45deg, #207dff 0%, #00bd55 100%);
+        background: -ms-linear-gradient(45deg, #207dff 0%, #00bd55 100%);
+        background: linear-gradient(45deg, #207dff 0%, #00bd55 100%);
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#207dff', endColorstr='#00bd55', GradientType=1);
+    }
+}
+
+@media(min-width:1350px) {
+    .navbar form i {
+        display: none;
+    }
+    .navbar-dark .navbar-nav .nav-link {
+        color: #ccc;
+        position: relative;
+        left: 400px;
+        font-weight: 400;
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+    .navbar-dark .navbar-brand {
+        color: #d32323;
+        position: relative;
+        left: 150px;
+    }
+    .sr {
+        display: none;
+    }
+    .i {
+        display: none;
+    }
+    .optionbox {
+        position: fixed;
+        top: 100px;
+        left: 0;
+        z-index: 9999;
+    }
+    .optionbox div {
+        background-color: #333;
+        border: 4px solid #207dff;
+        color: #ccc;
+    }
+    .optionbox .colori {
+        color: #FFF;
+        background: #00bd56;
+        background: #207dff;
+        background: -moz-linear-gradient(45deg, #207dff 0%, #00bd55 100%);
+        background: -webkit-linear-gradient(45deg, #207dff 0%, #00bd55 100%);
+        background: -o-linear-gradient(45deg, #207dff 0%, #00bd55 100%);
+        background: -ms-linear-gradient(45deg, #207dff 0%, #00bd55 100%);
+        background: linear-gradient(45deg, #207dff 0%, #00bd55 100%);
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#207dff', endColorstr='#00bd55', GradientType=1);
+    }
+    .sign h1 {
+        font-size: xx-large;
+        font-weight: bolder;
+        font-style: tahoma, arial;
+        color: #a83406;
+        margin-bottom: 50px;
+    }
+    .sign button {
+        font-weight: bold;
+        font-size: x-large;
+        color: #fff;
+    }
+    .log h1 {
+        font-size: xx-large;
+        font-weight: bolder;
+        font-style: tahoma, arial;
+        color: #1a71f3;
+        margin-bottom: 50px;
+    }
+    .log button {
+        font-weight: bold;
+        font-size: x-large;
+        color: #fff;
+        margin-bottom: 50px;
+    }
+    input[placeholder="Firstname"] {
+        position: relative;
+        left: 29%;
+        width: 250px;
+        height: 50px;
+        border-radius: 25px;
+        border: 1px solid #333;
+        background-color: rgba(18, 19, 18, 0.8);
+        color: rgb(60, 208, 235);
+        text-align: center;
+        font-size: large;
+        font-weight: bolder;
+        font-style: tahoma, arial;
+        margin-bottom: 20px;
+    }
+    input[placeholder="Lastname"] {
+        position: relative;
+        right: 29%;
+        width: 250px;
+        height: 50px;
+        border-radius: 25px;
+        border: 1px solid #333;
+        background-color: rgba(18, 19, 18, 0.8);
+        color: rgb(60, 208, 235);
+        text-align: center;
+        font-size: large;
+        font-weight: bolder;
+        font-style: tahoma, arial;
+        margin-bottom: 20px;
+    }
+    input[placeholder="Username"] {
+        width: 500px;
+        height: 50px;
+        border-radius: 25px;
+        border: 1px solid #333;
+        background-color: rgba(18, 19, 18, 0.8);
+        color: rgb(60, 208, 235);
+        text-align: center;
+        font-size: large;
+        font-weight: bolder;
+        font-style: tahoma, arial;
+        margin-bottom: 20px;
+    }
+    input[placeholder="@gmail.com"] {
+        width: 500px;
+        height: 50px;
+        border-radius: 25px;
+        border: 1px solid #333;
+        background-color: rgba(18, 19, 18, 0.8);
+        color: rgb(60, 208, 235);
+        text-align: center;
+        font-size: large;
+        font-weight: bolder;
+        font-style: tahoma, arial;
+        margin-bottom: 20px;
+    }
+    input[placeholder="Password"] {
+        width: 500px;
+        height: 50px;
+        border-radius: 25px;
+        border: 1px solid #333;
+        background-color: rgba(18, 19, 18, 0.8);
+        color: rgb(60, 208, 235);
+        text-align: center;
+        font-size: large;
+        font-weight: bolder;
+        font-style: tahoma, arial;
+        margin-bottom: 20px;
+    }
+    .dropdown-menu {
+        position: relative;
+        left: 400px;
+    }
+}
