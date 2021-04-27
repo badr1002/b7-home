@@ -1,2 +1,3 @@
 # b7-home
-website
+Laptops store template.
+
